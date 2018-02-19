@@ -6,8 +6,8 @@ int main(void) {
 
 	int num1,num2,num3;
 	
-	printf("%s","Enter three numbers \n(with space or line):");
-	scanf("%d%d%d",&num1,&num2,&num3);
+	printf("%s","Enter three numbers(in order):");
+	scanf("%d %d %d",&num1,&num2,&num3);
 	printf("Largest Number: %d\n", maxNum(num1,num2,num3));
 	return 0;
 }
